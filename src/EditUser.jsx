@@ -48,12 +48,11 @@ const EditUser = () => {
             <div className="card-title">
               <h2>Edit User Form</h2>
             </div>
-            <div className="card-body">
+            <div>
               <div className="row">
-
                 <div className="col-lg-12">
-                  <div className="form-group">
-                    <label>Name</label>
+                  <div>
+                    <label>Name:</label>
                     <input
                       value={name}
                       onChange={(e) => setName(e.target.value)}
@@ -66,10 +65,9 @@ const EditUser = () => {
                   </div>
                 </div>
 
-
                 <div className="col-lg-12">
-                  <div className="form-group">
-                    <label>User Name</label>
+                  <div>
+                    <label>User Name:</label>
                     <input
                       value={username}
                       onChange={(e) => setUsername(e.target.value)}
@@ -83,8 +81,8 @@ const EditUser = () => {
                 </div>
 
                 <div className="col-lg-12">
-                  <div className="form-group">
-                    <label>Email</label>
+                  <div>
+                    <label>Email:</label>
                     <input
                       type="email"
                       value={email}

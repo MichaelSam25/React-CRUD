@@ -35,7 +35,7 @@ const AddUser = () => {
                     <form className="container" onSubmit={handlesubmit}>
 
                         <div className="card" style={{"textAlign":"left"}}>
-                            <div className="card-title">
+                            <div>
                                 <h2>Add User Form</h2>
                             </div>
                             <div className="card-body">
@@ -43,24 +43,24 @@ const AddUser = () => {
                                 <div className="row">
 
                                     <div className="col-lg-12">
-                                        <div className="form-group">
-                                            <label>Name</label>
+                                        <div>
+                                            <label>Name:</label>
                                             <input required value={name} onMouseDown={()=>valchange(true)} onChange={e=>namechange(e.target.value)} className="form-control"></input>
                                         {name.length===0 && validation && <span className="text-danger">Enter the name</span>}
                                         </div>
                                     </div>
 
                                     <div className="col-lg-12">
-                                        <div className="form-group">
-                                            <label>User Name</label>
+                                        <div>
+                                            <label>User Name:</label>
                                             <input required value={username} onMouseDown={()=>valchange(true)} onChange={e=>usernamechange(e.target.value)} className="form-control"></input>
                                         {username.length===0 && validation && <span className="text-danger">Enter the User Name</span>}
                                         </div>
                                     </div>
 
                                     <div className="col-lg-12">
-                                        <div className="form-group">
-                                            <label>Email</label>
+                                        <div>
+                                            <label>Email:</label>
                                             <input type="email" value={email} onChange={e=>emailchange(e.target.value)} className="form-control"></input>
                                         </div>
                                     </div>
