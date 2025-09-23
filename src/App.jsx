@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import UserList from './UserList';
 import AddUser from './AddUser';
-import EditUser from './EditUSer';
+import EditUser from './EditUser';
 
 function App() {
   return (
