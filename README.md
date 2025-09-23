@@ -34,4 +34,4 @@ Improvements:
 
     --User Interface design could have enhanced
     --More CSS styles like animation could have added
-    --More details of the user could have visibled
+    --More details of the user could have visibled in the UI
