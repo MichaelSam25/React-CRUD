@@ -20,7 +20,7 @@ const UserList = () => {
     navigate("/users/" + id);
   };
 
-  const Removefunction = (id) => {
+  const DeleteUser = (id) => {
     fetch("https://jsonplaceholder.typicode.com/users/" + id, {
       method: "DELETE",
     })
@@ -208,7 +208,7 @@ const UserList = () => {
                         Edit
                       </button>
                       <button
-                        onClick={() => Removefunction(item.id)}
+                        onClick={() => DeleteUser(item.id)}
                         className="btn btn-danger"
                       >
                         Delete
